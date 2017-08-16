@@ -13,11 +13,20 @@
 
 * Compile espeak:
     
-    `cd app && make`
+    `cd app/libs/espeak/src && make`
         
 * Start espeak:
         
     `espeak -v pt -s 60 "Example of speech using Brazilian Portuguese language"`
+
+##### 2.2. PoDoFo:
+
+* Compile PoDoFo:
+    
+    `cd app/libs/` 
+    `mkdir podofo-build && cd $_`
+    `cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$HOME/podofo" ../podofo`
+    `make && make install`
     
 ##### 3. Contributors:
 
