@@ -24,8 +24,11 @@
 * Compile PoDoFo:
     
     `cd app/libs/` 
+    
     `mkdir podofo-build && cd $_`
+    
     `cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$HOME/podofo" ../podofo`
+    
     `make && make install`
     
 ##### 3. Contributors:
