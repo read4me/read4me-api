@@ -14,6 +14,12 @@
 * Compile espeak:
     
     `cd app/libs/espeak/src && make`
+
+* Errors with portaudio:
+    
+    * Maybe you can get some errors with portaudio libraries, which espeak depends. If this occurs, then download portaudio19-dev package. In Debian-like distros, you should run this command to do it:
+    
+        `sudo apt-get install portaudio19-dev`
         
 
 ##### 2.2. PoDoFo:
