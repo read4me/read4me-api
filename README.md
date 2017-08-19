@@ -28,10 +28,10 @@
     
     `make && make install`
     
-##### 3. Compile:
+##### 3. Compiling the project:
 
-    `cd app && make`
-
+`cd app && make`
+     
 ##### 4. Contributors:
 
 See project contributors [here](https://github.com/read4me/read4me-api/graphs/contributors).
