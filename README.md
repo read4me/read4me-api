@@ -3,7 +3,7 @@
 ### Read4me PDF to voice converter API
 
 ##### 1. Requirements:
-
+ 
 * [espeak](https://github.com/rhdunn/espeak)
 * [PoDoFo](https://github.com/mekentosj/podofo)
     
@@ -15,9 +15,6 @@
     
     `cd app/libs/espeak/src && make`
         
-* Start espeak:
-        
-    `espeak -v pt -s 60 "Example of speech using Brazilian Portuguese language"`
 
 ##### 2.2. PoDoFo:
 
@@ -31,6 +28,10 @@
     
     `make && make install`
     
-##### 3. Contributors:
+##### 3. Compile:
+
+    `cd app && make`
+
+##### 4. Contributors:
 
 See project contributors [here](https://github.com/read4me/read4me-api/graphs/contributors).
