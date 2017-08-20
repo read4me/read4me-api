@@ -1,6 +1,6 @@
 classes = classes/Speak.cpp
 libs = -lportaudio -lespeak
-CFLAGS = -02 -Wall
+CFLAGS = -O2 -Wall
 
 espeak:
 	cd libs/espeak/src && $(MAKE) install
